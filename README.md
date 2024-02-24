@@ -71,6 +71,13 @@ The target variable, whether a passenger survived or not, is a binary outcome (0
   * 3rd = Lower
 * Age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
 * SibSp: The dataset defines family relations in this way...
+  * Sibling = brother, sister, stepbrother, stepsister
+  * Spouse = husband, wife (mistresses and fiancés were ignored)
+* Parch: The dataset defines family relations in this way...
+  * Parent = mother, father
+  * Child = daughter, son, stepdaughter, stepson
+      * Some children travelled only with a nanny, therefore parch=0 for them.
+
 
 ## Results
 
@@ -86,9 +93,3 @@ https://www.kaggle.com/c/titanic. Here are the scores obtained:
 3) Score: 0.75837 | GaussianNB
 
 4) Score: 0.74162 | RandomForestClassifier
-  * Sibling = brother, sister, stepbrother, stepsister
-  * Spouse = husband, wife (mistresses and fiancés were ignored)
-* Parch: The dataset defines family relations in this way...
-  * Parent = mother, father
-  * Child = daughter, son, stepdaughter, stepson
-      * Some children travelled only with a nanny, therefore parch=0 for them.
