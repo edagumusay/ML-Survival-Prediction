@@ -82,7 +82,7 @@ The dataset consists of two parts: the training set (ttrain.csv) and the test se
       * Some children travelled only with a nanny, therefore parch=0 for them.
 
 ## Exploratory Data Analysis (EDA)
-Before delving into modeling, an exploratory data analysis (EDA) was conducted to gain insights into the Titanic dataset. This involved examining the dataset's structure, checking for missing values, and exploring relationships between variables. Key findings from the EDA included the presence of 1309 entries with various features. Missing values were identified in columns such as Age, Fare, Cabin, and Embarked, prompting strategies for handling them. Additionally, the distribution of passengers embarked from each port was analyzed, with the majority boarding from Southampton (S). These insights informed data preprocessing steps and laid the foundation for subsequent modeling.
+Before delving into modeling, an exploratory data analysis (EDA) was conducted to gain insights into the Titanic dataset. This involved examining the dataset's structure, checking for missing values, and exploring relationships between variables. Key findings from the EDA included the presence of 1309 entries with various features. Missing values were identified in columns such as Age, Fare, Cabin, and Embarked. These insights informed data preprocessing steps and laid the foundation for subsequent modeling.
 
 ## Modelling
 Several machine learning models were developed using popular algorithms such as Gaussian Naive Bayes, Bernoulli Naive Bayes, Random Forest Classifier, and Gradient Boosting Classifier. After fitting the models, predictions were generated for the test set. 
