@@ -4,28 +4,6 @@ Predictions will be made on survival outcomes based on the Titanic dataset.
 
 The target variable, whether a passenger survived or not, is a binary outcome (0 or 1), making it suitable for classification modeling. Therefore, classification algorithms are appropriate for this task.
 
-<style>
-    table {
-        font-family: Arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-    }
-
-    th, td {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-    }
-
-    th {
-        background-color: #f2f2f2;
-    }
-
-    tr:nth-child(even) {
-        background-color: #f2f2f2;
-    }
-</style>
-
 <h3>Data Dictionary</h3></br>
 <table>
   <tr>
