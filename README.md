@@ -100,3 +100,23 @@ https://www.kaggle.com/c/titanic. Here are the scores obtained:
 3) Score: 0.75837 | GaussianNB
 
 4) Score: 0.74162 | RandomForestClassifier
+
+
+### Required Packages
+Here's a summarized list of required packages and their descriptions:
+
+pandas:
+* Description: Data manipulation and analysis library for Python.
+* Installation: pip install pandas
+
+numpy:
+* Description: Fundamental package for scientific computing with Python, providing support for large, multi-dimensional arrays and matrices.
+* Installation: pip install numpy
+
+scikit-learn:
+* Description: Machine learning library in Python offering tools for data mining, analysis, and model evaluation.
+* Installation: pip install scikit-learn
+
+seaborn:
+* Description: Statistical data visualization library based on matplotlib, simplifying the creation of complex and attractive plots.
+* Installation: pip install seaborn
