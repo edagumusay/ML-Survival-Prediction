@@ -109,8 +109,6 @@ Here's a summarized list of required packages and their descriptions:
 
 * pandas: Data manipulation and analysis library for Python.
 
-* numpy: Fundamental package for scientific computing with Python, providing support for large, multi-dimensional arrays and matrices.
-
 * seaborn: Statistical data visualization library based on matplotlib, simplifying the creation of complex and attractive plots.
 
 * scikit-learn: Machine learning library in Python offering tools for data mining, analysis, and model evaluation.
