@@ -101,6 +101,8 @@ https://www.kaggle.com/c/titanic. Here are the scores obtained:
 
 4) Score: 0.74162 | RandomForestClassifier
 
+These scores may vary slightly due to factors such as randomness in the algorithms. 
+Among the algorithms used, RandomForestClassifier and GradientBoostingClassifier can exhibit randomness.
 
 ### Required Packages
 Here's a summarized list of required packages and their descriptions:
