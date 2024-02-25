@@ -105,18 +105,10 @@ https://www.kaggle.com/c/titanic. Here are the scores obtained:
 ### Required Packages
 Here's a summarized list of required packages and their descriptions:
 
-pandas:
-* Description: Data manipulation and analysis library for Python.
-* Installation: pip install pandas
+* pandas: Data manipulation and analysis library for Python.
 
-numpy:
-* Description: Fundamental package for scientific computing with Python, providing support for large, multi-dimensional arrays and matrices.
-* Installation: pip install numpy
+* numpy: Fundamental package for scientific computing with Python, providing support for large, multi-dimensional arrays and matrices.
 
-scikit-learn:
-* Description: Machine learning library in Python offering tools for data mining, analysis, and model evaluation.
-* Installation: pip install scikit-learn
+* seaborn: Statistical data visualization library based on matplotlib, simplifying the creation of complex and attractive plots.
 
-seaborn:
-* Description: Statistical data visualization library based on matplotlib, simplifying the creation of complex and attractive plots.
-* Installation: pip install seaborn
+* scikit-learn: Machine learning library in Python offering tools for data mining, analysis, and model evaluation.
