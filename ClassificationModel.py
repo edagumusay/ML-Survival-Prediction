@@ -30,7 +30,7 @@ y = train['Survived']
 test = test1.drop('Survived', axis=1)
 
 
-## Modelling
+   # Modelling
 
 from sklearn.naive_bayes import GaussianNB, BernoulliNB
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
